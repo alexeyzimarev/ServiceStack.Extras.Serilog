@@ -1,0 +1,9 @@
+NUGET
+  remote: https://www.nuget.org/api/v2
+  specs:
+    Serilog (1.5.14)
+    ServiceStack.Common (4.0.54)
+      ServiceStack.Interfaces (>= 4.0.54)
+      ServiceStack.Text (>= 4.0.54)
+    ServiceStack.Interfaces (4.0.54)
+    ServiceStack.Text (4.0.54)

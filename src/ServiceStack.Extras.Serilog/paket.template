@@ -1,0 +1,10 @@
+﻿type project
+authors
+	Alexey Zimarev
+	Nick Van Eeckhout
+owner alexey_zimarev
+description
+	Serilog logging adapter for ServiceStack
+licenseUrl https://github.com/alexeyzimarev/ServiceStack.Extras.Serilog/blob/master/LICENSE
+projectUrl https://github.com/alexeyzimarev/ServiceStack.Extras.Serilog
+tags ServiceStack Serilog

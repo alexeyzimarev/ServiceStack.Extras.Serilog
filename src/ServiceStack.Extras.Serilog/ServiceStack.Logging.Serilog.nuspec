@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>ServiceStack.Logging.Serilog</id>
+    <version>$version$</version>
+    <authors>Nick Van Eeckhout, Alexey Zimarev</authors>
+    <owners>nickvane</owners>
+    <iconUrl>https://servicestack.net/img/logo-32.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Serilog support for ServiceStack 4</description>
+    <copyright>Copyright 2015</copyright>
+    <tags>serilog servicestack</tags>
+    <dependencies>
+    	<group targetFramework=".NETFramework4.5">
+    		<dependency id="Serilog" version="[1,2)" />
+    		<dependency id="ServiceStack" version="[4,5)" />
+    	</group>
+    </dependencies>
+  </metadata>
+  <files>
+  	<file src="..\bin\ServiceStack.Logging.Serilog.dll" target="lib\net45" />
+  </files>
+</package>
