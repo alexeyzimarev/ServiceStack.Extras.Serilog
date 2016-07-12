@@ -1,11 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{10FE7DE0-F739-46F9-947F-0B207A7C313F}"
 	ProjectSection(SolutionItems) = preProject
-		paket.dependencies = paket.dependencies
+		..\paket.dependencies = ..\paket.dependencies
+		..\paket.lock = ..\paket.lock
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceStack.Extras.Serilog", "ServiceStack.Extras.Serilog\ServiceStack.Extras.Serilog.csproj", "{09716D2B-0964-4348-B875-7109ABE742E8}"
@@ -13,6 +14,12 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".build", ".build", "{D4E93DB4-2BCC-4F77-B389-68E9BBACCA04}"
 	ProjectSection(SolutionItems) = preProject
 		..\build.fsx = ..\build.fsx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{836A6250-EB9E-4CE5-9AF7-A6B02597CF46}"
+	ProjectSection(SolutionItems) = preProject
+		..\LICENSE = ..\LICENSE
+		..\README.md = ..\README.md
 	EndProjectSection
 EndProject
 Global
