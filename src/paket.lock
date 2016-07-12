@@ -1,6 +1,0 @@
-NUGET
-  remote: https://www.nuget.org/api/v2
-  specs:
-    FAKE (4.22.1)
-    Serilog (1.5.14)
-    ServiceStack.Interfaces (4.0.54)

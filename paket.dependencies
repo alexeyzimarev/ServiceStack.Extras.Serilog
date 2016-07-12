@@ -1,0 +1,5 @@
+source https://www.nuget.org/api/v2
+
+nuget Serilog >= 2.0
+nuget ServiceStack.Interfaces >= 4
+nuget FAKE
