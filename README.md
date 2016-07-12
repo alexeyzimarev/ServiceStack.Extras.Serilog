@@ -6,7 +6,7 @@ Provides Serilog logging adapter for ServiceStack 4 projects.
 
 ```csharp
 var logger = new LoggerConfiguration()
-    .WriteTo.ColoredConsole()
+    .WriteTo.LiterateConsole()
     .MinimumLevel.Debug()
     .CreateLogger();
 
