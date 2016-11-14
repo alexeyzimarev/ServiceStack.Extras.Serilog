@@ -33,10 +33,7 @@ namespace ServiceStack.Extras.Serilog
         /// </summary>
         /// <param name="type">The type.</param>
         /// <returns></returns>
-        public ILog GetLogger(Type type)
-        {
-            return new SerilogLogger(_log.ForContext(type));
-        }
+        public ILog GetLogger(Type type) => new SerilogLogger(_log.ForContext(type));
 
         /// <summary>
         /// Gets the logger.
